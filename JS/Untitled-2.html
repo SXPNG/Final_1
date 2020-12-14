@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마일리지 관리</title>
+  </head>
+  <body>
+  <h3>마일리지 관리</h3>
+  <hr>
+  <form action="">
+  <div class="container">
+      <div class="Mileage">
+          <label for="Mileage">마일리지</label>
+          <input type="text" name="Mileage" id="Mileage" placeholder="적립할 금액 확인" readonly>
+          <input type="button" value="금액설정" onclick="randomMoney()">
+      </div>
+      <div class="telNum">
+          <label for="telNum">전화번호</label>
+          <input type="text" name="telNum" id="telNum" placeholder="전화번호를 눌러주세요" maxlength="13" readonly>
+      </div><br>
+      <div>
+        <input type="submit" value="저장">
+        <input type="reset" onclick="resetValue()" value="취소">
+      </div>
+    </div>
+      <hr>
+      <div class="telPad">
+          <input type="button" value="010" onclick="pushNum('010')">
+          <input type="button" value="0" onclick="pushNum(0);">
+          <input type="button" value="1" onclick="pushNum(1)">
+          <input type="button" value="2" onclick="pushNum(2)">
+          <input type="button" value="3" onclick="pushNum(3)">
+          <input type="button" value="4" onclick="pushNum(4)">
+          <input type="button" value="5" onclick="pushNum(5)">
+          <input type="button" value="6" onclick="pushNum(6)">
+          <input type="button" value="7" onclick="pushNum(7)">
+          <input type="button" value="8" onclick="pushNum(8)">
+          <input type="button" value="9" onclick="pushNum(9)">
+          <input type="reset" value="C" onclick="resetValue()">
+          <input type="button" value="X" onclick="deleteNum()">
+      </div>
+      <hr>
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script>
+      let mileage = 0;
+      let number ="";
+
+      function randomMoney() {
+        const randomMileage = (Math.floor(Math.random() * 100) + 1) *1000;
+        mileage = randomMileage.toLocaleString();
+        mileage += "원";
+        document.querySelector("[name='Mileage']").value = mileage;
+      }
+
+      function pushNum(n) {
+        number += n;
+        document.querySelector("[name='telNum']").value = number;
+      }
+
+      function deleteNum(){
+        var slicestr = number.slice(0,-1);
+        var result = slicestr;
+        number = result;
+        document.querySelector("[name='telNum']").value = number;
+      }
+
+      function resetValue() {
+        number = "";
+      }
+
+
+  </script>
+  </form>
+  </body>
+</html>
