@@ -14,3 +14,10 @@ JS Final
 Requirements file added
 
 ------------------------------
+###version 1.1.2
+------------------------------
+
+JS Final
+Uneditted project file .js added
+
+------------------------------
