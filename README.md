@@ -71,7 +71,7 @@
 
 	ERD fixed.
 	
-	Totally done with the Logical schema(logical data model) and Relational 	data model with ERD content
+	Totally done with the Logical schema(logical data model) and Relational data model with ERD content
 
 ------------------------------
 
