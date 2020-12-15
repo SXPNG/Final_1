@@ -49,3 +49,12 @@
 	Form updated
 
 ------------------------------
+### version 1.2.2
+
+> DB Final
+
+	Outline, Requirements table fixed.
+	
+	Requirements file (.txt) also added.
+
+------------------------------
