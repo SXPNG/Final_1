@@ -58,3 +58,10 @@
 	Requirements file (.txt) also added.
 
 ------------------------------
+### version 1.2.3
+
+> DB Final
+	
+	ERD Added.
+
+------------------------------
