@@ -65,3 +65,13 @@
 	ERD Added.
 
 ------------------------------
+### version 1.2.4
+
+> DB Final
+
+	ERD fixed.
+	
+	Totally done with the Logical schema(logical data model) and Relational 	data model with ERD content
+
+------------------------------
+
