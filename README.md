@@ -112,3 +112,12 @@
 	Project file 2 upload.
 
 ------------------------------
+### version 1.3.5
+
+> JAVA Final
+	
+	Project file complete ver.
+	manual text file attach
+
+------------------------------
+
