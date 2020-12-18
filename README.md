@@ -74,4 +74,12 @@
 	Totally done with the Logical schema(logical data model) and Relational data model with ERD content
 
 ------------------------------
+### version 1.2.5
 
+> DB Final
+
+	Table Description updated.
+
+	Relation Terms Predefined.
+
+------------------------------
