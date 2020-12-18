@@ -90,3 +90,11 @@
 	Screen conversion planner upload.
 
 ------------------------------
+### version 1.3.2
+
+> JAVA Final
+	
+	Database MovieReserv.sql.gz upload
+	.gz -> compressed.
+
+------------------------------
